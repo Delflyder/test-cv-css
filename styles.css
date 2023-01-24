@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@300;400&display=swap');
+
+body {
+	background-color: #baa5c7;
+	color: rgb(31, 30, 30);
+	font-size: 17px;
+	font-weight: normal;
+	font-family: 'Anek Gujarati', sans-serif;
+}
+	/* font: normal 17px 'Anek Gujarati', sans-serif; это для обьеденения свойств шрифта*/
+
+a {
+	color: rgba(87, 23, 124);
+	text-decoration: none;
+	margin: 10px;
+	font-weight: bold ;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgba(180, 8, 180, 0.938);
+} /*при наведении*/
+a:active {
+	color:green;
+}/*при нажатии*/
+a:visited {
+	color: gray
+}/*после использования*/
+
+.card {
+	background-color: red;
+	padding: 10px 20px;
+	margin-bottom: 25px;
+	border-radius: 30px;
+}
+
+.bg-1 {
+	background-color: rgba(140, 179, 117, 0.753);
+}
+
+.bg-2 {
+	background-color: rgba(153, 128, 202, 0.781);
+}
+
+.bg-3 {
+	background-color: rgba(231, 100, 100, 0.63);
+}
+.bg-3 p {
+	padding-left:10px;
+}
+.bg-4 {
+	background-color:#baa5c700;
+}
+.avatar {
+		width: 240px;
+		border-radius: 30px;
+		box-shadow: 5px 5px 30px rgba(0, 0, 0, 25) 
+	}
+.info {
+	margin-bottom:20px;
+	display:flex;
+}
+
+@media (max-width: 900px) {
+	.info {
+		text-align: center;
+		display:block;
+	}
+}
+.inf {
+	margin-left:50px;
+}
+.info p {
+	color:rgb(78, 78, 78)
+	margin: 0;
+	font-style: italic;
+	text-decoration: none;
+	/* text-transform: uppercase; делает весь текст большим/маленьким и тд*/
+	/* word-spacing: 1px; пространство между словами */
+	/* letter-spacing: 1px; пространство между буквами */
+}
+
+/* Box model*/
+ .conteiner {
+	max-width: 900px;
+	margin: auto;
+} 
+
+/* .social {
+	background: greenyellow; */
+	/* padding: 15px; расстояние между элементом и границей со всех сторн */
+	/* padding: 15px 20px; верх-низ право-лево */
+/* padding: 15px 10px 12px 14px; верх право низ лево 
+margin: 5px; расстояние до других элементов
+} */
+
+.list {
+	padding: 0 20px;
+	color:rgb(87, 86, 86)
+}
+.list li {
+	margin-bottom: 10px;
+}
+
+.table {
+	width: 80%;
+}
+.table th {
+	text-align: left;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+	color: rgb(87, 86, 86)
+}
+
+.links {
+	list-style: none;
+	padding:0
+}
+
+.links li {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(105, 104, 104, 0.685);
+}
+
+.links li a {
+	color
+}
+
+.contact h2{
+	text-align: center;
+}
+
+.forms label{
+	display: block;
+	font-size:15px;
+	color:rgb(49, 46, 46);
+}
+
+.forms input, textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	color:black;
+	padding: 15px 10px 10px;
+	outline: none;
+	font-family: inherit;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .forms {
+	width: 50%;
+}
+.row > .forms:first-child {
+	margin-right: 20px;
+}
+
+.btn {
+	color: white;
+	padding: 10px 30px;
+	background-color: purple;
+	border: none;
+	border-radius: 5px;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
